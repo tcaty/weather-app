@@ -1,4 +1,4 @@
-# Weater app
+# Weather app
 
 ## Main page
 ![image](https://user-images.githubusercontent.com/79706809/129018780-534834a0-dd59-48af-a559-35629edf98f7.png)
