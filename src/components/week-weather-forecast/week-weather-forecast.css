@@ -1,0 +1,10 @@
+.week-weather-forecast {
+  height: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-image: radial-gradient(#22283c, #16222d);
+}
+
+.week-weather-forecast::-webkit-scrollbar {
+  width: 0;
+}

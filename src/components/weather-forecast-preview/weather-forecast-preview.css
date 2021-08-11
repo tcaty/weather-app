@@ -1,0 +1,39 @@
+.weather-forecast-preview {
+  padding: 20px 50px 0px 55px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-forecast-preview__weather-img img {
+  background-color: transparent;
+}
+
+.weather-forecast-preview__preview-info {
+  text-align: right;
+}
+
+.weather-forecast-preview .preview-info {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.weather-forecast-preview .preview-info__city_black {
+  color: #000000;
+  font-size: 44px;
+}
+
+.weather-forecast-preview .preview-info__city_white {
+  color: #ffffff;
+  font-size: 44px;
+}
+
+.weather-forecast-preview .preview-info .weather-preview__temperature {
+  margin-left: 10px;
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 640px;
+  height: 920px;
+
+  font-family: 'Roboto', sans-serif;
+
+  background-image: radial-gradient(#22283c, #16222d);
+}

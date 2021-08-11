@@ -1,0 +1,29 @@
+.hamburger-city-list__hide-icon, .hamburger-city-list_icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.hamburger-city-list__hide-icon:hover, .hamburger-city-list_icon:hover {
+  color: #dfdbdb;
+}
+
+.hamburger-city-list {
+  position: absolute;
+  top: 25px;
+  left: 289px;
+  z-index: 1;
+  width: 300px;
+  background-color: #00e1ff;
+}
+
+.hamburger-city-list__city-list {
+  height: 357px;
+  overflow: scroll;
+}
+
+.hamburger-city-list__city-list::-webkit-scrollbar {
+  width: 0;
+}

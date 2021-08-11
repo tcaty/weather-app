@@ -1,0 +1,62 @@
+.week-weather-forecast-item__top-line .date-info, .week-weather-forecast-item__top-line .weather-info {
+  height: 63px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.week-weather-forecast-item__top-line, .week-weather-forecast-item__bottom-line .weather-additional-info .icons, .week-weather-forecast-item__bottom-line .weather-additional-info .values {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.week-weather-forecast-item {
+  padding: 0px 84px 20px 45px;
+  padding-top: 20px;
+  border-bottom: 1px solid #2a3440;
+  cursor: pointer;
+  transition: 200ms linear;
+}
+
+.week-weather-forecast-item:hover {
+  background-color: #2d3349;
+}
+
+.week-weather-forecast-item__top-line {
+  width: 250px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.week-weather-forecast-item__top-line .weather-info__weather {
+  font-size: 26px;
+}
+
+.week-weather-forecast-item__weather-icon {
+  margin: 0px 25px;
+}
+
+.week-weather-forecast-item__weather-icon img {
+  height: 63px;
+  width: 63px;
+}
+
+.week-weather-forecast-item__bottom-line {
+  width: 330px;
+  margin-left: auto;
+}
+
+.week-weather-forecast-item__bottom-line .weather-additional-info .icons {
+  margin-bottom: 15px;
+}
+
+.week-weather-forecast-item__bottom-line .weather-additional-info .icons__wind {
+  margin-right: 10px;
+}
+
+.week-weather-forecast-item__bottom-line .weather-additional-info .values {
+  font-size: 16px;
+  color: #ffffff;
+}

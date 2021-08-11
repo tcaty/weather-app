@@ -1,0 +1,78 @@
+%flex-column {
+  height: 63px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+%flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.week-weather-forecast-item {
+  padding: 0px 84px 20px 45px;
+  padding-top: 20px;
+
+  border-bottom: 1px solid #2a3440;
+  cursor: pointer;
+  transition: 200ms linear;
+
+  &:hover {
+    background-color: #2d3349;
+  }
+
+  &__top-line {
+    width: 250px;
+    margin-bottom: 15px;
+
+    @extend %flex-row;
+
+    font-size: 24px;
+    color: #ffffff;
+
+    .date-info {
+      @extend %flex-column;
+    }
+
+    .weather-info {
+      @extend %flex-column;
+
+      &__weather {
+        font-size: 26px;
+      }
+    }
+  }
+
+  &__weather-icon {
+    margin: 0px 25px;
+    img {
+      height: 63px;
+      width: 63px;
+    }
+  }
+
+  &__bottom-line {
+    width: 330px;
+    margin-left: auto;
+
+    .weather-additional-info {
+
+      .icons {
+        @extend %flex-row;
+        margin-bottom: 15px;
+
+        &__wind {
+          margin-right: 10px;
+        }
+      }
+
+      .values {
+        @extend %flex-row;
+        font-size: 16px;
+        color: #ffffff;
+      }
+    }
+  }
+}

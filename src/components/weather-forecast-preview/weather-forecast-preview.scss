@@ -1,0 +1,49 @@
+.weather-forecast-preview {
+  padding: 20px 50px 0px 55px;
+
+  margin: 20px 0px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  &__weather-img {
+    img {
+      background-color: transparent;
+    }
+  }
+
+  &__preview-info {
+    text-align: right;
+  }
+
+  .preview-info {
+    height: 180px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    font-size: 32px;
+    color: #ffffff;
+
+    &__city_black {
+      color: #000000;
+      font-size: 44px;
+    }
+
+    &__city_white {
+      color: #ffffff;
+      font-size: 44px;
+    }
+
+    .weather-preview {
+      &__temperature {
+        margin-left: 10px;
+      }
+    }
+  }
+}
